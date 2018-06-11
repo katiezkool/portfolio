@@ -1,0 +1,24 @@
+header {
+  background: rgb(255, 192, sud221);
+  font-size: 25px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+  display: inline;
+    border: 3px dotted darkorchid;
+}
+
+h1 {
+  border: 1px solid rgb(255, 192, 221);
+  display: inline;
+  font-family: Impact, Charcoal, sans-serif;
+  align-items: center;
+}
+
+button {
+    color: deeppink;
+    font-size: 16px;
+}
+
+section {
+    justify-content: flex-end;
+}
