@@ -5,6 +5,11 @@ class Skills extends Component {
     render () {
         return (
             <div>
+            <header>Katelynn Johnson
+                (702)290-3373
+                kt.johnson111@outlook.com
+            </header>
+                <section>
                 <Link to="/">
                     <button> Homie</button></Link>
                 <Link to="/skills">
@@ -15,14 +20,20 @@ class Skills extends Component {
                     <button> Work Experience </button></Link>
                 <Link to="References">
                     <button> References </button></Link>
-           <body>
+                </section>
 
             <h1>Skills</h1>
-        <ul>
+      <section>  <ul>
             <li>probably gonna use a few lists</li>
             <li>because</li>
             <li>i wanna</li>
-        </ul> </body>
+          <li> i got quite a few skills</li>
+          <li> (: </li>
+        </ul>
+    <div className="photo">
+
+    <img src="DSC05017.jpg" alt="WOWZA" height="650" width="1050" /> </div> </section>
+
        </div>
         )
     }

@@ -1,24 +1,55 @@
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   background: rgb(255, 192, sud221);
   font-size: 25px;
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Big John, Impact, sans-serif;
   font-weight: bold;
-  display: inline;
-    border: 3px dotted darkorchid;
 }
 
 h1 {
-  border: 1px solid rgb(255, 192, 221);
-  display: inline;
-  font-family: Impact, Charcoal, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  font-family: Big John, Impact, sans-serif;
   align-items: center;
+    border: 3px double black;
+
 }
 
 button {
     color: deeppink;
-    font-size: 16px;
+    font-size: 24px;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+
 }
 
 section {
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+p {
+    font-family: Slim Joe, Impact, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+li {
+    font-family: Slim Joe, Impact, sans-serif;
+}
+
+
+.photo {
+    border: lightpink double 6px;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }

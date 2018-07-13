@@ -4,7 +4,11 @@ import {Link} from 'react-router-dom'
 class WorkXP extends Component {
     render () {
         return (
-            <div>
+            <div><header>Katelynn Johnson
+                (702)290-3373
+                kt.johnson111@outlook.com
+            </header>
+                <section>
                 <Link to="/">
                     <button> Homie</button></Link>
                 <Link to="/skills">
@@ -15,6 +19,7 @@ class WorkXP extends Component {
                     <button> Work Experience </button></Link>
                 <Link to="References">
                     <button> References </button></Link>
+                </section>
             <body>
             <h1>Work Experience</h1>
             <ul>
