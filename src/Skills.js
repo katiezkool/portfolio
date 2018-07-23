@@ -23,18 +23,18 @@ class Skills extends Component {
                 </section>
 
             <h1>Skills</h1>
-      <section>  <ul>
+        <ul>
             <li>probably gonna use a few lists</li>
             <li>because</li>
             <li>i wanna</li>
           <li> i got quite a few skills</li>
           <li> (: </li>
-        </ul>
-    <div className="photo">
+      </ul>
 
-    <img src="DSC05017.jpg" alt="WOWZA" height="650" width="1050" /> </div> </section>
 
-       </div>
+        <img src="DSC05017.jpg" alt="WOWZA" height="650" width="1050" />
+
+            </div>
         )
     }
 }

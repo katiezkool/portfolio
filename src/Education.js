@@ -31,7 +31,8 @@ class Education extends Component {
                 <li>idk if i want to use bullets here</li>
                 <li>idk what i want to do here</li>
             </ul>
-            <img src="IMG_0721.jpg" alt="uneducated" />
+            <div className="photo">
+                <img src="IMG_0721.jpg" alt="uneducated" /> </div>
             </body>
         </div>
     }
