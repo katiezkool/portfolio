@@ -53,3 +53,13 @@ img:hover {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+.social img{
+    height: 50px;
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.social {
+    padding-bottom: 20px;
+}

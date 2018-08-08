@@ -6,10 +6,16 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <header>Katelynn Johnson
-                    (702)290-3373
-                    kt.johnson111@outlook.com
+                <header>
+                    <p>Katelynn Johnson
+                    (702)290-3373 <br />
+                        kt.johnson111@outlook.com <br /></p>
                 </header>
+
+                <div className="social">
+                    <p> HELP</p>
+                    <a href="https://github.com/katiezkool"><img src="https://s8.postimg.cc/oh0uswasl/logo-github.png" alt="Github"/></a>
+                </div>
                 <section>
                     <Link to="/">
                         <button> Homie</button>
