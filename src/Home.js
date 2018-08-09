@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import Navigation from './components/Navigation';
 
 
 class Home extends Component {
@@ -21,21 +21,10 @@ class Home extends Component {
                     alt="My LinkedIn"/></a>
             </div>
             <section>
-                <Link to="/">
-                    <button> Homie</button>
-                </Link>
-                <Link to="/skills">
-                    <button> Skills</button>
-                </Link>
-                <Link to="/education">
-                    <button> Education</button>
-                </Link>
-                <Link to="/WorkXP">
-                    <button> Work Experience</button>
-                </Link>
-                <Link to="/References">
-                    <button> References</button>
-                </Link></section>
+
+                <Navigation />
+
+            </section>
             <body>
             <p>Hi mtv welcome 2 my crib i don't understand why this line break is not doing the thing but im sure i will
                 figure
