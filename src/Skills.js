@@ -22,7 +22,7 @@ class Skills extends Component {
                 <Link to="References">
                     <button> References </button></Link>
                 </section>
-
+        <body>
             <h1>Skills</h1>
         <ul>
             <li>probably gonna use a few lists</li>
@@ -34,7 +34,7 @@ class Skills extends Component {
 
 
         <img src="DSC05017.jpg" alt="WOWZA" height="650" width="1050" />
-
+                </body>
             </div>
         )
     }

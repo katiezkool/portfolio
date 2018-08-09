@@ -2,10 +2,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image: linear-gradient(120deg, #ffc3a0 0%, #ffafbd 100%);
+    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
     font-size: 25px;
     font-family: Big John, Impact, sans-serif;
     font-weight: bold;
+    border: 3px double black;
+    padding: 5px;
 }
 
 h1 {
@@ -26,14 +28,14 @@ button {
 }
 
 button:hover {
-    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
 }
 
 section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    padding-top: 10px;
 }
 
 p {
@@ -54,20 +56,29 @@ img:hover {
     transform: scaleX(-1);
 }
 
-.social img{
-    padding-bottom: 20px;
+#social img{
     width: 35px;
     height: 35px;
-    background-image: linear-gradient(120 deg, #ff9a9e 0%, #fecfef 100%);
 }
 
-.social {
-    padding-bottom: 20px;
+#social {
+    padding: 20px;
+    flex-direction: row;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
+    border: 1px solid black;
+    border-top-style: hidden;
+    margin: 0 auto;
+    width: 100px;
+
 }
 
 .photo {
     border: lightpink double 6px;
+}
+
+body {
+    background-image: linear-gradient(120deg, #FFE0F5 0%, #f8f2ff 100%)
 }
