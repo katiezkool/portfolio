@@ -5,10 +5,11 @@ class References extends Component {
     render () {
         return (
             <div>
-            <header>Katelynn Johnson
-                       (702)290-3373
-                       kt.johnson111@outlook.com
-            </header>
+                <header>
+                    Katelynn Johnson
+                    (702)290-3373
+                    <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
+                </header>
                 <section>
                 <Link to="/">
                     <button> Homie</button></Link>

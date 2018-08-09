@@ -4,9 +4,10 @@ import {Link} from 'react-router-dom'
 class WorkXP extends Component {
     render () {
         return (
-            <div><header>Katelynn Johnson
+            <div><header>
+                Katelynn Johnson
                 (702)290-3373
-                kt.johnson111@outlook.com
+                <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
             </header>
                 <section>
                 <Link to="/">

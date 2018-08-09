@@ -7,15 +7,15 @@ class Home extends Component {
         return (
             <div>
                 <header>
-                    <p>Katelynn Johnson
-                    (702)290-3373 <br />
-                        kt.johnson111@outlook.com <br /></p>
+                    Katelynn Johnson
+                    (702)290-3373
+                    <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
                 </header>
 
                 <div className="social">
-                    <p> HELP</p>
-                    <a href="https://github.com/katiezkool"><img src="https://s8.postimg.cc/oh0uswasl/logo-github.png" alt="Github"/></a>
-                </div>
+                    <a href="https://github.com/katiezkool"><img src="https://s8.postimg.cc/oh0uswasl/logo-github.png" alt="My Github" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=1663183817"><img src="https://s8.postimg.cc/ddi5q70ad/logo-facebook.png" alt="My Facebook" /></a>
+                    <a href="https://www.linkedin.com/in/ktjohnsonslc/"><img src="https://s8.postimg.cc/ibip7vnph/logo-linkedin.png" alt="My LinkedIn" /></a> </div>
                 <section>
                     <Link to="/">
                         <button> Homie</button>
