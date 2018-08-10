@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Navigation from './components/Navigation';
+import Navigation from './Navigation';
 
 class WorkXP extends Component {
     render () {
@@ -9,13 +9,11 @@ class WorkXP extends Component {
                 (702)290-3373
                 <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
             </header>
-                <section>
 
                     <Navigation />
 
-                </section>
             <body>
-            <h1>Work Experience</h1>
+            <h1>Experience</h1>
             <ul>
                 <li>another list</li>
                 <li>and another bullet</li>

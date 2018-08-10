@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Navigation from './components/Navigation';
+import Navigation from './Navigation';
 
 
 class Home extends Component {
@@ -20,11 +20,9 @@ class Home extends Component {
                     src="https://s8.postimg.cc/ibip7vnph/logo-linkedin.png"
                     alt="My LinkedIn"/></a>
             </div>
-            <section>
 
                 <Navigation />
 
-            </section>
             <body>
             <p>Hi mtv welcome 2 my crib i don't understand why this line break is not doing the thing but im sure i will
                 figure
