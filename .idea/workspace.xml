@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f0f0c7f-3140-40ca-a993-07f73386e419" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/References.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/References.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkXP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkXP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.js" beforeDir="false" />
-    </list>
+    <list default="true" id="5f0f0c7f-3140-40ca-a993-07f73386e419" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -294,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45174000" />
+    <option name="totallyTimeSpent" value="45478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
