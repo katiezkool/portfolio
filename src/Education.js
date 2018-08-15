@@ -13,10 +13,10 @@ class Education extends Component {
                 <Navigation />
 
             <body>
-            <h1>Education</h1>
-            <ul>
-                <li>idk if i want to use bullets here</li>
-                <li>idk what i want to do here</li>
+            <h1>My Life</h1>
+            <ul> TO DO
+                <li>make a timeline? picture of a map? Idk</li>
+                <li>I like to do SOME things</li>
             </ul>
             <div className="photo">
                 <img src="IMG_0721.jpg" alt="uneducated" /> </div>

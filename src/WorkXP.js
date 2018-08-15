@@ -13,12 +13,11 @@ class WorkXP extends Component {
                     <Navigation />
 
             <body>
-            <h1>Experience</h1>
-            <ul>
-                <li>another list</li>
-                <li>and another bullet</li>
-                <li> also dont forget to change layout</li>
-            </ul>
+            <h1>😸MY CAT😸</h1>
+            <p> Her name is B.G. because she's my lil BabyGirl and she is the meanest sweetest cat I've ever met and I love her.</p>
+              <ul> TODO
+                <li>upload pictures of beegee and put them here</li>
+              </ul>
             </body>
             </div>
         )
