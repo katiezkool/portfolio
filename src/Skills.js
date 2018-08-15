@@ -4,27 +4,25 @@ import Navigation from './Navigation';
 class Skills extends Component {
     render () {
         return (
-        <div>
-            <header>
-                    Katelynn Johnson
-                    (702)290-3373
-                    <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
-                </header>
+        <div className="projectpg">
+          <header>
+            Katelynn Johnson <br/>
+            (702)290-3373
+            <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
+          </header>
                         <Navigation />
 
-        <body>
-            <h1>Skills</h1>
-        <ul>
-            <li>probably gonna use a few lists</li>
-            <li>because</li>
-            <li>i wanna</li>
-          <li> i got quite a few skills</li>
-          <li> (: </li>
-      </ul>
 
+            <h1>My Projects</h1>
+            <p> I don't know how to pull in my past projects from Github but maybe I'll take SS's and just use them as links to the repositories </p>
 
-        <img src="DSC05017.jpg" alt="WOWZA" height="650" width="1050" />
-                </body>
+      <div className="container">
+        <img src= "namebadgess.png" alt="WOW" height="650" width="1050" />
+        <div className="overlay">
+          <div class="text">Name Badge assignment where I practiced using state and props within a text area.</div>
+        </div>
+      </div>
+
             </div>
         )
     }

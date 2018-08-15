@@ -12,7 +12,7 @@ class Navigation extends Component {
                     <button> Home</button>
                 </Link>
                 <Link to="/skills">
-                    <button> Skills</button>
+                    <button> My Projects</button>
                 </Link>
                 <Link to="/education">
                     <button> Education</button>

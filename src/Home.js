@@ -23,17 +23,17 @@ class Home extends Component {
 
                 <Navigation />
 
-            <body>
+
             <p>Hi mtv welcome 2 my crib i don't understand why this line break is not doing the thing but im sure i will
                 figure
                 something out i just wanna know what all these words are gonna look like when i type all these words its
                 like
-                lorem ipsum but katie lorem ipsum <br/>
+              lorem ipsum but katie lorem ipsum </p>
                 <div className="photo">
                     <img src="DSC05388.jpg" alt="flowery" height="650" width="1050"/>
                 </div>
-            </p>
-            </body>
+
+
         </div>
     }
 }
