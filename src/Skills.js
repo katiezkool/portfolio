@@ -14,7 +14,7 @@ class Skills extends Component {
 
 
             <h1>My Projects</h1>
-            <p> I made all of these projects for some extra practice using the techniques I've been learning the past few months. </p>
+          <p> Click for the Github repositories!  </p>
 
           <div className="container">
             <a href="https://github.com/katiezkool/ghibli-api">
