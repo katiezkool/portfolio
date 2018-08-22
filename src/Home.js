@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 class Home extends Component {
     render() {
-        return <div>
+        return <div className="color">
             <header>
                 Katelynn Johnson <br/>
                 (702)290-3373

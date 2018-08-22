@@ -4,10 +4,10 @@ import Navigation from './Navigation';
 class WorkXP extends Component {
     render () {
         return (
-            <div><header>
-                Katelynn Johnson
-                (702)290-3373
-                <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
+            <div className="color"><header>
+              Katelynn Johnson <br/>
+              (702)290-3373
+              <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
             </header>
 
                     <Navigation />

@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 class References extends Component {
     render () {
         return (
-            <div>
+            <div className="color">
                 <header>
                     Katelynn Johnson
                     (702)290-3373

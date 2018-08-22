@@ -11,11 +11,11 @@ class Navigation extends Component {
                 <Link to="/">
                     <button> Me</button>
                 </Link>
-                <Link to="/skills">
+                <Link to="/Projects">
                     <button> My Projects</button>
                 </Link>
-                <Link to="/education">
-                    <button> My Life</button>
+                <Link to="/Pictures">
+                    <button> My Pics</button>
                 </Link>
                 <Link to="/WorkXP">
                     <button> My Cat</button>
