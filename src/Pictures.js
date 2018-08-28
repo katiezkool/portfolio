@@ -22,7 +22,7 @@ const Image = styled.img`
 class Pictures extends Component {
     render () {
         return  <div className="color">
-          <header>
+          <header className="bgimg">
             Katelynn Johnson <br/>
             (702)290-3373
             <a href="mailto:kt.johnson111@outlook.com" target="_top">kt.johnson111@outlook.com</a>
@@ -38,9 +38,7 @@ class Pictures extends Component {
               <div className = "tooltip"><span className="tooltiptext">July 14 2018 4:56 PM <br /> Kauai, Hawaii</span><Image src="picture5.jpg" alt="pinkflowers" /></div>
               <div className = "tooltip"><span className="tooltiptext">July 5 2018 12:19 AM <br /> Taylorsville, Utah</span><Image src="picture6.jpg" alt="sk8" /></div>
               <div className = "tooltip"><span className="tooltiptext">June 14 2018 1:59 PM<br /> Kauai, Hawaii</span><Image src="picture7.jpg" alt="angelflow" /></div>
-              <div className = "tooltip"><span className="tooltiptext">March 5 2018 12:28PM <br /> Brighton, Utah</span><Image src="picture10.jpg" alt="snoweeee" /></div>
-              <div className = "tooltip"><span className="tooltiptext">August 20 2018 9:32 PM<br /> Salt Lake City, Utah</span><Image src="picture8.jpg" alt="bowlingpros" /></div>
-              <div className = "tooltip"><span className="tooltiptext">August 21 2018 9:58 PM <br /> Taylorsville, Utah</span><Image src="picture9.jpg" alt="BEEEGEE" /></div>
+              <div className = "tooltip"><span className="tooltiptext">March 5 2018 12:28PM <br /> Brighton, Utah</span><Image src="picture8.jpg" alt="snoweeee" /></div>
             </div>
         </div>
     }

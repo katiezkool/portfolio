@@ -18,7 +18,7 @@ class Navigation extends Component {
                     <button> My Pics</button>
                 </Link>
                 <Link to="/WorkXP">
-                    <button> My Cat</button>
+                    <button> About Me</button>
                 </Link>
                 <Link to="/References">
                     <button> References</button>

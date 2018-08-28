@@ -2,11 +2,12 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
-    font-size: 25px;
+    /*background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);*/
+    font-size: 40px;
     font-family: Big John, Impact, sans-serif;
     font-weight: bold;
-    border: 3px double black;
+  color: #F3F644;
+    /*border: 3px double black;*/
     padding: 5px;
 }
 
@@ -20,11 +21,11 @@ h1 {
     width: 400px;
     flex-wrap: nowrap;
     padding-top: 10px;
-  background-image: linear-gradient(120deg, #ecdefc 0%, #fecfef 100%);
+  background-image: linear-gradient(120deg, #f8f995 0%, #f9c0eb 100%);
 }
 
 button {
-    background-image: linear-gradient(120deg, #ff9a9e 0%, #fecfef 100%);
+    background-image: linear-gradient(120deg, #f9c0eb 0%, #f8f995 100%);
     font-size: 24px;
     font-family: "Slim Joe", "Big John", Helvetica;
     box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -32,7 +33,7 @@ button {
 }
 
 button:hover {
-    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
+    background-image: linear-gradient(120deg, #f8f995 0%, #f8f995 100%);
 }
 
 .section {
@@ -40,17 +41,24 @@ button:hover {
   flex-direction: row;
   justify-content: space-around;
   padding: 10px;
-  background-color: #ffe5f8;
+  /*background-color: #ffe5f8;*/
 }
 
 p {
   font-family: Slim Joe, Impact, sans-serif;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #000000;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 5px;
+  flex-wrap: nowrap;
+  padding: 15px;
+}
+
+span {
+  background-color: rgb(209, 204, 209);opacity:0.5;
 }
 
 li {
@@ -73,7 +81,7 @@ li {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    background-image: linear-gradient(120deg, #8fd3f4 0%, #ecdefc 100%);
+    background-image: linear-gradient(120deg,  #f9c0eb 0%, #f8f995 100%);
     border: 1px solid black;
     border-top-style: hidden;
     margin: 0 auto;
@@ -95,6 +103,23 @@ li {
 
 .color {
   background-color: #ffe5f8;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background: url("leaves.jpg") no-repeat center;
+  background-size: cover;
+  height: 25%;
+}
+
+.bigimg {
+  background: url("leaves.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
 }
 
 .tooltip {
