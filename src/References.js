@@ -26,7 +26,7 @@ class References extends Component {
                   src="https://s8.postimg.cc/ibip7vnph/logo-linkedin.png"
                   alt="My LinkedIn"/></a>
               </div>
-            <p> You can email me, or contact me through Facebook or LinkedIn. Be sure to check out my Github though!</p>
+              <p> <span>You can email me or contact me through Facebook or LinkedIn. Be sure to check out my Github though!</span></p>
               </div>
           </div>
         )

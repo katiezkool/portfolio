@@ -9,19 +9,16 @@ class Navigation extends Component {
 
 
                 <Link to="/">
-                    <button> Me</button>
+                    <button> Home</button>
                 </Link>
                 <Link to="/Projects">
                     <button> My Projects</button>
                 </Link>
                 <Link to="/Pictures">
-                    <button> My Pics</button>
+                    <button> My Pictures</button>
                 </Link>
-                <Link to="/WorkXP">
-                    <button> About Me</button>
-                </Link>
-                <Link to="/References">
-                    <button> References</button>
+                <Link to="/contactme">
+                    <button> Contact Me</button>
                 </Link>
             </div> )
     }

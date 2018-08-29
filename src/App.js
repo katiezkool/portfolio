@@ -8,7 +8,6 @@ import {
 import Projects from './Projects'
 import Home from './Home'
 import Pictures from './Pictures'
-import WorkXP from './WorkXP'
 import References from './References'
 
 export default () => (
@@ -17,8 +16,7 @@ export default () => (
             <Route path="/" exact component={Home}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/pictures" component={Pictures}/>
-            <Route path="/workxp" component={WorkXP}/>
-            <Route path="/references" component={References}/>
+            <Route path="/contactme" component={References}/>
         </Switch>
     </BrowserRouter>
 )
